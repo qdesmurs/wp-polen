@@ -10,7 +10,7 @@ body {
 
 .container {
     margin: auto;
-    width: 70%;
+    max-width: 1000px;
     margin-top: 10px;
     margin-bottom: 30px;
     padding: 25px;
@@ -69,5 +69,5 @@ h4 {
 }
 
 html body.customize-support div.container div.row div.form form button {
-    margin-left: 10em;
+    margin-left: 6em;
 }
