@@ -6,9 +6,10 @@
 
     <?php echo do_shortcode("[huge_it_slider id='2']"); ?>
 
-    <?php wp_nav_menu( array( 'theme_location' => 'max_mega_menu_2' ) ); ?>
 
     <img class="bandeau" src="<?php echo get_stylesheet_directory_uri( ); ?>/images/bandeau-blanc.png" alt="logotop">
+    
+    <?php wp_nav_menu( array( 'theme_location' => 'max_mega_menu_2' ) ); ?>
 
     <div class="posts">
         <section>
