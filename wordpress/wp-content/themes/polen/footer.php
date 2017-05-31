@@ -1,13 +1,13 @@
     <div class="row">
         <div class="form">
-            <p>Inscription à la Newsletter</p>
+            <h4 class="inscrip">Inscription à la Newsletter</h4>
             <form class="" action="#" method="post">
                 <input type="email" name="user_mail" placeholder="" class="champ">
                 <button type="submit" name="button">Envoyer</button>
             </form>
         </div>
         <div class="agenda">
-            <p>Agenda</p>
+            <h4>Agenda</h4>
             <p>Aucun évènement</p>
         </div>
         </div>
@@ -16,7 +16,7 @@
             <img class="botimg2" src="<?php echo get_stylesheet_directory_uri(); ?>/images/polenfoot.jpg" alt="logobot">
         </div>
         <div class="adress">
-            <p>Pôle lozérien d'Economie Numérique</p>
+            <h5>Pôle lozérien d'Economie Numérique</h5>
             <p>Rue du Gévaudan</p>
             <p>48000 Mende</p>
             <p>Tel : 04 66 45 33 00 - Fax : 04 66 45 33 00</p>

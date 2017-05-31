@@ -11,13 +11,17 @@ body {
 .container {
     margin: auto;
     width: 70%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 25px;
+    box-shadow: 0px 0px 5px rgb(146, 151, 151);
 }
 
 /*NAVBAR*/
 
-div#mega-menu-wrap-max_mega_menu_1.mega-menu-wrap {
+/*div#mega-menu-wrap-max_mega_menu_1.mega-menu-wrap {
     z-index: -1;
-}
+}*/
 
 .topimg {
     width: 250px;
@@ -29,6 +33,7 @@ div#mega-menu-wrap-max_mega_menu_1.mega-menu-wrap {
     margin-top: 32px;
 }
 
+/*FOOTER*/
 .row {
     display: flex;
     justify-content: space-between;
@@ -41,4 +46,28 @@ div#mega-menu-wrap-max_mega_menu_1.mega-menu-wrap {
 .row2 {
     display: flex;
     justify-content: space-between;
+    margin-top: 3em;
+}
+
+.adress p {
+    font-size: 12px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+h4 {
+    font-size: 20px;
+    color: rgb(14, 95, 254);
+    text-transform: uppercase;
+    font-family: Arial;
+}
+
+.inscrip {
+    padding-bottom: 3em;
+}
+
+html body.customize-support div.container div.row div.form form button {
+    margin-left: 10em;
 }
