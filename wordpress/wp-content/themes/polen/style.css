@@ -17,12 +17,20 @@ body {
     box-shadow: 0px 0px 5px rgb(146, 151, 151);
 }
 
-section {
-    display: inline-block;
-    width: 33%;
-    top:0;
+.posts {
+    display: flex;
+    justify-content: space-between;
 }
 
+section {
+    width: 33%;
+}
+
+article {
+    border-bottom: 1px solid lightgrey;
+    width: 76%;
+    margin-bottom: 1em;
+}
 /*NAVBAR*/
 
 /*div#mega-menu-wrap-max_mega_menu_1.mega-menu-wrap {
