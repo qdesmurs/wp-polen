@@ -8,6 +8,11 @@ body {
     margin: 0;
 }
 
+.container {
+    margin: auto;
+    width: 70%;
+}
+
 /*NAVBAR*/
 
 div#mega-menu-wrap-max_mega_menu_1.mega-menu-wrap {
@@ -22,4 +27,18 @@ div#mega-menu-wrap-max_mega_menu_1.mega-menu-wrap {
     right: 0px;
     margin-right: 150px;
     margin-top: 32px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form, .agenda {
+    width: 48%;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-between;
 }
