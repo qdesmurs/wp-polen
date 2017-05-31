@@ -3,8 +3,12 @@
 <main>
     <img class="topimg" src="<?php echo get_stylesheet_directory_uri( ); ?>/images/lnv.png" alt="logotop">
 
-    <div class="posts">
 
+    <?php echo do_shortcode("[huge_it_slider id='2']"); ?>
+
+    <img class="bandeau" src="<?php echo get_stylesheet_directory_uri( ); ?>/images/bandeau-blanc.png" alt="logotop">
+
+    <div class="posts">
         <section>
         <?php
 

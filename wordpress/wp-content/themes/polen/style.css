@@ -36,6 +36,15 @@ article {
 /*div#mega-menu-wrap-max_mega_menu_1.mega-menu-wrap {
     z-index: -1;
 }*/
+.huge-it-slide-image {
+    z-index: -10;
+}
+
+.bandeau {
+    width: 975px;
+    z-index: 10;
+    margin-top: -150px;
+}
 
 .topimg {
     width: 250px;
