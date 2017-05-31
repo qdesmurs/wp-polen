@@ -22,13 +22,32 @@ body {
     justify-content: space-between;
 }
 
-section {
+.first {
+    display: flex;
+}
+
+.miniposts {
+    width: 33%;
+    padding-left: 38px;
+}
+
+.d {
+    display: flex;
     width: 33%;
 }
 
-article {
+.sectionimg img {
+    transition: all 0.5s ease 0s;
+}
+
+.sectionimg img:hover {
+    transform: rotate(360deg);
+    transition: 0.5s;
+}
+
+section article {
     border-bottom: 1px solid lightgrey;
-    width: 76%;
+    width: 85%;
     margin-bottom: 1em;
 }
 /*NAVBAR*/
@@ -104,11 +123,11 @@ html body.customize-support div.container div.row div.form form button {
     margin-left: 6em;
 }
 
-section img {
+.miniposts img {
     filter: grayscale(100%);
     opacity: 0.75;
 }
 
-section img:hover {
+.miniposts img:hover {
     opacity: 1;
 }
