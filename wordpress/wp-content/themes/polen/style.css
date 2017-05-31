@@ -57,6 +57,14 @@ article {
     margin-right: 150px;
 }
 
+.imagecentre {
+    margin-bottom: -100px;
+    z-index: 3;
+    position: absolute;
+    display: block;
+    margin-left: 385px;
+}
+
 /*FOOTER*/
 .row {
     display: flex;
