@@ -17,7 +17,7 @@ body {
     max-width: 1000px;
     margin-top: 10px;
     margin-bottom: 30px;
-    padding: 25px;
+    padding: 15px 5px;
     box-shadow: 0px 0px 5px rgb(146, 151, 151);
 }
 
@@ -30,6 +30,7 @@ body {
     display: flex;
     margin: auto;
     width: 90%;
+    padding: 2em 0;
 }
 
 .miniposts {
@@ -97,6 +98,7 @@ section article {
 .row {
     display: flex;
     justify-content: space-between;
+    padding: 40px;
 }
 
 .form, .agenda {
@@ -106,7 +108,7 @@ section article {
 .row2 {
     display: flex;
     justify-content: space-between;
-    margin-top: 3em;
+    padding: 40px;
 }
 
 .adress h5 {
@@ -114,12 +116,12 @@ section article {
 }
 
 .adress p {
-    font-size: 12px;
+    font-size: 11px;
     line-height: 0.5em;
 }
 
 h5 {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
 }
 
