@@ -4,6 +4,10 @@ Author: jacques
 Description: yolo
 */
 
+* {
+    font-family: sans-serif;
+}
+
 body {
     margin: 0;
 }
@@ -24,6 +28,8 @@ body {
 
 .first {
     display: flex;
+    margin: auto;
+    width: 90%;
 }
 
 .miniposts {
@@ -37,7 +43,10 @@ body {
 }
 
 .sectionimg img {
+    height: 60%;
+    margin-top: 1.5em;
     transition: all 0.5s ease 0s;
+    width: 95%;
 }
 
 .sectionimg img:hover {
@@ -100,11 +109,25 @@ section article {
     margin-top: 3em;
 }
 
+.adress h5 {
+    font-weight: bold;
+}
+
 .adress p {
     font-size: 12px;
+    line-height: 0.5em;
 }
 
 h5 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.rpwe-title {
+    font-weight: 600;
+}
+
+.first h4 {
     font-size: 16px;
 }
 
