@@ -42,12 +42,14 @@ article {
 
 .bandeau {
     width: 975px;
-    z-index: 10;
-    margin-top: -150px;
+    z-index: 2;
+    position: absolute;
+    margin-top: -197px;
+    margin-left: 12px;
 }
 
 .topimg {
-    width: 250px;
+    width: 190px;
     z-index: 1;
     position: absolute;
     top: 0px;
