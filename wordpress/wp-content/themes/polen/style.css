@@ -3,3 +3,23 @@ Theme Name: polen
 Author: jacques
 Description: yolo
 */
+
+body {
+    margin: 0;
+}
+
+/*NAVBAR*/
+
+div#mega-menu-wrap-max_mega_menu_1.mega-menu-wrap {
+    z-index: -1;
+}
+
+.topimg {
+    width: 250px;
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-right: 150px;
+    margin-top: 32px;
+}
